@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tynawilliam.github.io/static/css/main.c90f8808.chunk.css",
+    "main.js": "/tynawilliam.github.io/static/js/main.f624bc93.chunk.js",
+    "main.js.map": "/tynawilliam.github.io/static/js/main.f624bc93.chunk.js.map",
+    "runtime-main.js": "/tynawilliam.github.io/static/js/runtime-main.3712df1d.js",
+    "runtime-main.js.map": "/tynawilliam.github.io/static/js/runtime-main.3712df1d.js.map",
+    "static/css/2.136a4374.chunk.css": "/tynawilliam.github.io/static/css/2.136a4374.chunk.css",
+    "static/js/2.d240b204.chunk.js": "/tynawilliam.github.io/static/js/2.d240b204.chunk.js",
+    "static/js/2.d240b204.chunk.js.map": "/tynawilliam.github.io/static/js/2.d240b204.chunk.js.map",
+    "index.html": "/tynawilliam.github.io/index.html",
+    "static/css/2.136a4374.chunk.css.map": "/tynawilliam.github.io/static/css/2.136a4374.chunk.css.map",
+    "static/css/main.c90f8808.chunk.css.map": "/tynawilliam.github.io/static/css/main.c90f8808.chunk.css.map",
+    "static/js/2.d240b204.chunk.js.LICENSE.txt": "/tynawilliam.github.io/static/js/2.d240b204.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3712df1d.js",
+    "static/css/2.136a4374.chunk.css",
+    "static/js/2.d240b204.chunk.js",
+    "static/css/main.c90f8808.chunk.css",
+    "static/js/main.f624bc93.chunk.js"
+  ]
+}
