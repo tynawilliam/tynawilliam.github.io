@@ -1,0 +1,111 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    /* justify-content: space-between; */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 15vh;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.projects-container{
+    width: 80vw;
+    margin-top: 10vh;
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.projects-container div{
+    width: 17vw;
+    height: 30vh;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cards .card_img{
+    width: 18vw;
+    height: 30vh;
+    border-radius: 5px;
+
+}
+
+.cards:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.modal_images {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    flex-wrap: wrap;
+    width: 40vw;
+    margin-left: 100px;
+}
+
+.modal_img{
+    width: 13vw;
+    height: 20vh;
+    padding: 0.5vw;
+}
+
+.modal_img:hover{
+    transform: scale(1.05);
+}
+
+#links a{
+    padding: 40px;
+    text-decoration: none;
+    margin-top: 20vh;
+    /* overflow: hidden; */
+    color: black;
+    font-size: 20px;
+}
+#links a:hover{
+    color: #F76B1C;
+    font-size: 21px;
+}
+
+#tech {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 20px;
+}
+#tech h4{
+    margin-bottom: 0;
+}
+#tech-items{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.item{
+    padding: 0.5vw;
+}
+
+#details{
+    text-align: center;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}

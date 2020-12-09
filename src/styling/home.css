@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nerko+One&display=swap');
+.home{
+    /* background-color: green; */
+    margin: 0 auto;
+    width: 100%;
+    height: 85vh;
+    background: linear-gradient(-45deg, #F2D50F, #F76B1C,#DA0641,#FAD961);
+	background-size: 400% 400%;
+    animation: gradient 12s ease infinite;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+}
+.pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding-top: 15px;
+}
+
+/* carousel */
+.carousel{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20vh;
+    height: 20vh;
+
+
+}
+
+
+.home .slide {
+    width: 200px;
+    height: 200px;
+}
+
+.carousel .icon{
+    width: 60px;
+}
+.carousel .icon:hover{
+    transform: scale(1.2);
+}
