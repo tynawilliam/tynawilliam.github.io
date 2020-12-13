@@ -20,10 +20,20 @@ const responsive = {
   };
 
 function Home() {
+  function downloadCanvasAsPNG(){
+    var link = document.createElement("a");
+    link.download = "drawing.png";
+    link.href = document.querySelector("canvas").toDataURL();
+    link.click();
+}
     return (
         <div id='home' className='section home'>
             <Pic />
             <Title />
+            <div id='home-buttons' className='home-buttons'>
+              <a id='btn1' href={`${process.env.PUBLIC_URL}/images/resume.pdf`} download='Tyna William Resume'>Download Resume</a>
+              <a id='btn2' href='#contact'>Contact</a>
+            </div>
             <Slides />
         </div>
     )

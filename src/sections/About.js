@@ -6,7 +6,7 @@ function About() {
         <div id='about' className='section about-me'>
             <h1>About Me</h1>
             <div className='container'>
-                <img className='about-me_pic' src={`${process.env.PUBLIC_URL}/images/face.jpg`} alt='Not Found' />
+                <img className='about-me_pic' src={`${process.env.PUBLIC_URL}/images/tyna.jpeg`} alt='Not Found' />
                 <div className='about-me_description'>
                     <p>
                     Hi, I'm Tyna - a software engineer and volleyball player.

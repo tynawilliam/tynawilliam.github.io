@@ -4,7 +4,7 @@ function Pic() {
     return (
         <div>
 
-            <img src={`${process.env.PUBLIC_URL}/images/face.jpg`} alt='Not Found' className='pic'/>
+            <img id='my-pic' src={`${process.env.PUBLIC_URL}/images/tyna.jpeg`} alt='Not Found' className='pic'/>
         </div>
     )
 }

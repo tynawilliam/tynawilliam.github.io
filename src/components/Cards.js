@@ -20,7 +20,7 @@ const customStyles = {
 
 
 function Card({ desc }) {
-    const { description, url, id, name, pics, links, tech, details} = desc
+    const { description, url, id, name, pics, links, tech, details, demo} = desc
     const [isModal, setIsModal] = useState(false)
     const [show, setShow] = useState(false)
 
@@ -40,13 +40,14 @@ function Card({ desc }) {
                 <img id={id} className='card_img' src={url} />
             </div>
             <div className='desc'>
-                {description}
+                <p id='desc'>{description}</p>
             </div>
             <Modal
                 isOpen={show}
                 onRequestClose={handleClose}
                 style={customStyles}
                 contentLabel='Modal'
+
             >
                 <div className='modal'>
                     <h1>
@@ -56,15 +57,11 @@ function Card({ desc }) {
                         <a href={links.github}>Github</a>
                         <a href={links.live}>Live</a>
                     </div>
-                    <div className='modal_images'>
-                        {pics.map((pic, idx) => (
-                            <img
-                                className='modal_img'
-                                alt='Not Found'
-                                src={pic}
-                                key={idx}
-                                />
-                        ))}
+                    <div className='modal_demo'>
+                        <video id='video' controls autoPlay loop muted>
+                            <source src={demo} type='video/mp4' />
+                            Your browser does not support the video tag
+                        </video>
                     </div>
                     <div id='details'>
                         {details}

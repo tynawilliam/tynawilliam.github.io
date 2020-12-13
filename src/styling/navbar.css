@@ -10,6 +10,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
+    position: fixed;
 }
 
 .navbar .navlinks{
@@ -17,4 +18,20 @@
     padding-right: 2vw;
     font-size: 1.7vw;
     text-decoration: none;
+}
+
+@media only screen
+    and (max-width: 1024px){
+    .navbar{
+        /* background-color: red; */
+        justify-content: space-around;
+    }
+    .navbar .navlinks{
+        /* color: green; */
+        padding-right: 2vw;
+        font-size: 5vw;
+        text-decoration: none;
+    }
+
+
 }

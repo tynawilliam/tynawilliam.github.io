@@ -8,7 +8,7 @@ function Navbar() {
             <a href='/#about' className='navlinks'>About</a>
             <a href='/#skills' className='navlinks'>Skills</a>
             <a href='/#projects' className='navlinks'>Projects</a>
-            <a href='/#contacts' className='navlinks'>Contacts</a>
+            <a href='/#contact' className='navlinks'>Contact</a>
         </div>
     )
 }

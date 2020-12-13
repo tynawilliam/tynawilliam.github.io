@@ -5,6 +5,7 @@
     /* justify-content: space-between; */
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    padding-top: 40px;
     padding-bottom: 15vh;
     color: rgba(0, 0, 0, 0.6);
 }
@@ -52,13 +53,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.modal_images {
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-    flex-wrap: wrap;
-    width: 40vw;
-    margin-left: 100px;
+.modal_demo #video {
+    width: 500px;
+    padding: 20px;
 }
 
 .modal_img{
@@ -108,4 +105,95 @@
     text-align: center;
     margin-right: 2vw;
     margin-left: 2vw;
+}
+
+@media only screen
+    and (max-width: 1024px){
+
+    .projects{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .projects h1{
+        margin-bottom: -5vh;
+        font-size: 7vw;
+    }
+   .projects-container{
+       flex-direction: column;
+       height: 150vh;
+       padding-bottom: 50px;
+   }
+   .projects-container h3{
+       width: 50vw;
+       padding-left: 15vw;
+       font-size: 6vw;
+       margin: 0;
+   }
+   #proj{
+       margin-bottom: 20vh;
+       margin: 0 auto;
+       margin-left: 2.5vw;
+   }
+   #proj img{
+       width: 75vw;
+   }
+   #desc{
+       text-align: center;
+       width: 70vw;
+       padding-left: 5vw;
+   }
+   .desc{
+       font-size: 4vw;
+       width: 200px;
+       text-align: center;
+   }
+
+   .modal{
+       justify-content: flex-start;
+       padding-top: 0vh;
+   }
+
+   .modal h1{
+       font-size: 7vw;
+   }
+
+   #links a{
+       font-size: 5vw;
+   }
+
+   .modal_demo{
+       width: 60vw;
+       margin-left: -10vw;
+   }
+   #details{
+       font-size: 3vw;
+   }
+   #tech{
+       width: 60vw;
+       height: auto;
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+   }
+   #tech h4{
+       font-size: 4vw;
+       margin: 0;
+   }
+   #tech-items{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       font-size: 4vw;
+   }
+
+   .modal_demo #video{
+       width: 80vw;
+   }
+
+   #links a{
+       color: #F76B1C;
+       text-decoration: underline;
+   }
 }

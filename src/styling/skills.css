@@ -1,6 +1,6 @@
 .skills{
     padding-top: 10vh;
-    height: 80vh;
+    height: 120vh;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -20,6 +20,7 @@
 }
 
 .skills .new-skill{
+    padding-top: 20px;
     width: 300px;
     height: 200px;
     /* background-color: green; */
@@ -31,4 +32,34 @@
 .new-skill img{
     margin: 0 auto;
     width: 100px;
+}
+
+@media only screen
+    and (max-width: 1024px){
+    .skills h1{
+        margin: 0;
+        font-size: 7vw;
+    }
+    .skills {
+        height: 180vh;
+    }
+
+    .container {
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        align-items: center;
+        /* background-color: blue; */
+    }
+    .new-skill.node{
+        padding-top: 5vh;
+    }
+
+    .new-skill.css{
+        margin-top: -6vh;
+    }
+    #skill {
+        width: 40vw;
+        height: 18vh;
+        font-size: 4vw;
+    }
 }

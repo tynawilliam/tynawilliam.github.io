@@ -12,7 +12,6 @@
     display:flex;
     flex-direction: row;
     margin: 3vw;
-    /* background-color: red; */
     justify-content: space-between;
 }
 
@@ -88,4 +87,70 @@ button:hover{
 }
 .icon img{
     width: 3vw;
+}
+.resume:hover{
+    transform: scale(1.07);
+    color: black;
+}
+
+.resume a{
+    text-decoration: none;
+    margin-top: 10vh;
+}
+
+@media only screen
+    and (max-width: 1024px){
+    .contact h1{
+        font-size: 7vw;
+    }
+    .contact-form{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .row{
+        flex-direction: column;
+        /* background-color: green; */
+    }
+    input {
+        border-bottom: 4px #f58c4f solid;
+        width: 50vw;
+        padding-top: 4vh;
+        outline: none;
+        font-size: 5vw;
+        margin-left: 10vw;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    input::placeholder,textarea::placeholder{
+        font-size: 5vw;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.3);
+    }
+    textarea{
+        border-bottom: 4px #f58c4f solid;
+        margin-top: 2vh;
+        width: 70vw;
+        font-size: 5vw;
+    }
+    button{
+        align-self: center;
+        width: 30vw;
+        height: 5vh;
+        font-size: 5vw;
+        margin-bottom: -10vh;
+        /* background-color: green; */
+    }
+    .column {
+        display: none;
+    }
+    .resume{
+        display: block;
+        /* background-color: red; */
+        margin-top: 7vh;
+        font-size: 4.5vw;
+    }
+    .icon img{
+        width: 100px;
+    }
+
 }
