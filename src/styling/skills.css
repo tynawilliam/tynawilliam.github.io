@@ -45,13 +45,11 @@
     }
 
     .container {
-        /* flex-wrap: wrap; */
         justify-content: center;
         align-items: center;
-        /* background-color: blue; */
     }
     .new-skill.node{
-        padding-top: 5vh;
+        padding-top: 10vh;
     }
 
     .new-skill.css{

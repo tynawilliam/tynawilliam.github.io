@@ -196,4 +196,8 @@
        color: #F76B1C;
        text-decoration: underline;
    }
+
+   .cards:hover{
+       transform: none;
+   }
 }
